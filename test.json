@@ -1,0 +1,51 @@
+{
+  "aws_instance_profile": {
+    "value": "1"
+  },
+  "enc_password": {
+    "value": "${tfe_password}"
+  },
+  "hairpin_addressing": {
+    "value": "0"
+  },
+  "hostname": {
+    "value": "$PUBLIC_DNS"
+  },
+  "pg_dbname": {
+    "value": "${db_name}"
+  },
+  "pg_netloc": {
+    "value": "${db_address}"
+  },
+  "pg_password": {
+    "value": "${db_password}"
+  },
+  "pg_user": {
+    "value": "${db_user}"
+  },
+  "placement": {
+    "value": "placement_s3"
+  },
+  "production_type": {
+    "value": "external"
+  },
+  "s3_bucket": {
+    "value": "${bucket_name}"
+  },
+  "s3_endpoint": {},
+  "s3_region": {
+    "value": "${region}"
+  },
+  "enable_active_active": {
+    "value": "1"
+  },
+  "redis_host": {
+    "value": "${redis_host}"
+  },
+  "redis_port": {
+    "value": "6379"
+  },
+  "redis_use_password_auth": {
+    "value": "0"
+  }
+}
